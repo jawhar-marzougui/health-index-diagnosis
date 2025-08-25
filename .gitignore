@@ -1,0 +1,26 @@
+# Maven build folder
+/target/
+
+# Logs
+*.log
+
+# IDE files
+/.idea/
+/.vscode/
+
+# MacOS files
+.DS_Store
+
+# Compiled class files
+*.class
+
+# Eclipse files
+*.classpath
+*.project
+*.settings/
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
