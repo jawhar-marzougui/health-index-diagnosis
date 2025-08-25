@@ -39,43 +39,33 @@ The application exposes **REST endpoints** to retrieve the diagnosis.
 ```bash
 git clone <your-github-url>
 cd health-index-diagnosis
-Build the project using Maven:
 
-bash
-Copy
-Edit
+2. **Build the project using Maven:**
+
+```bash
 mvn clean package
-Run the application with Payara Micro:
 
-bash
-Copy
-Edit
+3. **Run the application with Payara Micro:**
+```bash
 java -jar payara-micro-6.2025.8.jar --deploy target/health-index-diagnosis-1.0.0.war
-Access the REST API:
 
-Plain text endpoint:
+4. **Access the REST API:**
 
-bash
-Copy
-Edit
+5. **Plain text endpoint:**
+
+```bash
 http://localhost:8080/health-index-diagnosis-1.0.0/api/diagnosis/{index}
-JSON endpoint:
 
-bash
-Copy
-Edit
+6. **JSON endpoint:**
+```bash
 http://localhost:8080/health-index-diagnosis-1.0.0/api/diagnosis/{index}/json
-Example:
 
-bash
-Copy
-Edit
+Example:
+```bash
 GET http://localhost:8080/health-index-diagnosis-1.0.0/api/diagnosis/15
-# Result: Cardiology, Traumatology
-Project Structure
-bash
-Copy
-Edit
+
+**Project Structure**
+```bash
 src/
   main/java/       # Java source code
   main/resources/  # Configuration files
